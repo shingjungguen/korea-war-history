@@ -1,0 +1,54 @@
+.bu a:link, .bu a:visited {
+    background-color: rgb(126, 168, 247);
+    color: black;
+    width: 190px; 
+    padding-block: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+  }
+  
+.bu a:hover, .bu a:active {
+    background-color: rgb(255, 255, 255);
+  }
+
+  .main a:link, .main a:visited {
+    background-color: rgb(255, 112, 112);
+    color: black;
+    width: 143.1px; 
+    height: 20px;
+    padding-block: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    margin: -5px;
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  
+.main a:hover, .main a:active {
+    background-color: rgb(255, 255, 255);
+  }
+
+  .new a:link, .new a:visited {
+    background-color: rgb(189, 211, 255);
+    color: black;
+    width: 400.5px; 
+    height: 59px;
+    margin-left: -10px;
+    margin-top: -25px;
+    margin-bottom: 25px;
+    padding-block: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+  }
+  
+.new a:hover, .new a:active {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+  }

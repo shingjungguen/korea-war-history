@@ -1,0 +1,27 @@
+.column {
+    float: left;
+  }
+  
+  /* 오른쪽 또는 왼쪽 컨텐츠 */
+  .column.side {
+    width: 190px;
+    height: 1500px;
+    background-color: antiquewhite;
+    background-attachment: fixed;
+  }
+  
+  /* 중간 요소 */
+  .column.middle {
+    width: 1000px;
+    margin: 15px;
+    margin-left: 7.2cm;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
+
+ 
